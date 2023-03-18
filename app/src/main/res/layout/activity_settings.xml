@@ -37,7 +37,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/settings_button_height"
         android:layout_marginTop="40dp"
         android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
@@ -53,13 +53,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            app:thumbTint="#AEAFB4"
-            app:trackTint="#E6E8EB" />
+            app:thumbTint="@color/switch_thumbTint"
+            app:trackTint="@color/switch_trackTint" />
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/settings_button_height"
         android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
         <TextView
@@ -81,7 +81,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/settings_button_height"
         android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
         <TextView
@@ -99,12 +99,12 @@
             android:layout_gravity="center_vertical"
             android:maxWidth="20dp"
             android:src="@drawable/group"
-            app:iconTint="#AEAFB4" />
+            app:iconTint="@color/support_iconTint" />
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/settings_button_height"
         android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
         <TextView
