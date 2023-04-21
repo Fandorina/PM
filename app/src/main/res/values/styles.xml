@@ -34,4 +34,11 @@
         <item name="android:tint">@color/settings_strelkaTint</item>
     </style>
 
+    <style name="SettingsSwitch">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="thumbTint">@color/switch_thumbTint</item>
+        <item name="trackTint">@color/switch_trackTint</item>
+    </style>
+
 </resources>
