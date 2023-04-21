@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_textsize">22sp</dimen>
+    <dimen name="corner_radius">16dp</dimen>
+    <dimen name="main_margin_top">16dp</dimen>
+    <dimen name="text_header_size">22sp</dimen>
+    <dimen name="settings_textsize">16sp</dimen>
+    <dimen name="settings_padding_horizontal">16dp</dimen>
+    <dimen name="settings_button_height">60dp</dimen>
+</resources>

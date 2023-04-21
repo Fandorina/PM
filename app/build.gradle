@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.practicum.pm'
-    compileSdk 32
+    namespace 'com.practicum.playlistmaker'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.practicum.pm"
+        applicationId "com.practicum.playlistmaker"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
